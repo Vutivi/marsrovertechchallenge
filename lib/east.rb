@@ -1,4 +1,6 @@
-class East
+require './lib/direction'
+
+class East < Direction
   def move(rover)
     rover.x += 1
   end

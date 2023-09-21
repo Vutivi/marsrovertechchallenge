@@ -4,7 +4,7 @@ require_relative '../lib/south'
 require_relative '../lib/rover'
 
 describe West do
-  let(:rover) { Rover.new(2, 0, West.new) }
+  let(:rover) { Rover.new(2, 0, 'W', nil) }
   
   it "moves the rover west correctly" do
     rover.direction.move(rover)

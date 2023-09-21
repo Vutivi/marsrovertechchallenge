@@ -5,7 +5,8 @@ require_relative '../lib/west'
 require_relative '../lib/south'
 
 describe Rover do
-  let(:rover) { Rover.new(0, 0, North.new) }
+  let(:plateau) { Plateau.new(2, 2) }
+  let(:rover) { Rover.new(0, 0, 'N', plateau) }
 
   it "initializes with the correct position and direction" do
     expect(rover.x).to eq(0)

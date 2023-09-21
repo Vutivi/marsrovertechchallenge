@@ -1,4 +1,4 @@
-class West
+class West < Direction
   def move(rover)
     rover.x -= 1
   end
