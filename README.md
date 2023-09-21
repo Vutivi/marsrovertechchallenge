@@ -6,5 +6,5 @@ This is a Ruby solution for the famous mars rover challenge
 
 1. `git clone git@github.com:Vutivi/marsrovertechchallenge.git && cd marsrovertechchallenge`
 2. `bundle`
-3. `ruby app.rb test`
+3. `ruby lib/app.rb test`
 4. `rspec`

@@ -1,10 +1,10 @@
-require_relative './lib/plateau'
-require_relative './lib/rover'
-require_relative './lib/handler'
-require_relative './lib/east'
-require_relative './lib/north'
-require_relative './lib/south'
-require_relative './lib/west'
+require_relative './plateau'
+require_relative './rover'
+require_relative './handler'
+require_relative './east'
+require_relative './north'
+require_relative './south'
+require_relative './west'
 
 upper_right = ARGF.gets.split.map(&:to_i)
 plateau = Plateau.new(upper_right[0], upper_right[1])
